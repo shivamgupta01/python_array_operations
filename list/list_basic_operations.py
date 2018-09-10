@@ -72,7 +72,7 @@ nums.remove(8)
 try:
         nums.remove(14)
 except ValueError as exception:
-        print("Exception occured while removing item: " + str(exception))
+        print("Exception occurred while removing item: " + str(exception))
 
 print('*********************************')
 
@@ -84,11 +84,11 @@ print(nums.pop(0))
 try:
         print(nums.pop(111))
 except IndexError as exception:
-        print("Exception Occured: " + str(exception))
+        print("Exception Occurred: " + str(exception))
 print('*********************************')
 
 # .clear will clear the while list.
-# Uncomment it.
+# Uncommon it.
 # nums.clear()
 print(nums)
 print('*********************************')
@@ -99,7 +99,7 @@ print('*********************************')
 print(nums.index(2))
 print('*********************************')
 
-# Counting the occurance of a given element.
+# Counting the occurrence of a given element.
 print(nums.count(2))
 print('*********************************')
 
