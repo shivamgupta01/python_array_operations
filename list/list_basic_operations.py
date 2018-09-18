@@ -115,3 +115,18 @@ print(nums)
 nums.sort(reverse = True)
 print(nums)
 print('*********************************')
+
+# Converting Binary to Decimal
+
+print(int('00000001',2))
+print(int('00000011',2))
+print(int('00000111',2))
+
+# Creating Shallow copy for reversed List:
+
+nums = [1,2,3,4,5]
+print(nums[::-1])
+print(nums)
+print('*********************************')
+
+
