@@ -98,6 +98,21 @@ class binarySearchTree:
         if pntr.rightNode:
             self.post_order(pntr.rightNode)
         print(pntr.data)
+    
+    def max_min(self):
+        pntr = self.root
+        if pntr == None:
+            return True
+       
+        self.reverse_in_order(pntr)
+        
+    def reverse_in_order(self,pntr):
+        if (pntr.rightNode):
+            self.reverse_in_order(pntr.rightNode)
+        print(pntr.data)
+        if (pntr.leftNode):
+            self.reverse_in_order(pntr.leftNode)
+
 
 
 if __name__ == '__main__':
@@ -115,3 +130,4 @@ if __name__ == '__main__':
     # s.in_order_traversal()
     # s.pre_order_traversal()
     s.post_order_traversal()
+    # s.max_min()
